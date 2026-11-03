@@ -1,142 +1,75 @@
-# \# Moto Travel 🏍️
+# Moto Travel 🏍️
 
-# 
+Moto Travel is a motorcycle-riding game prototype built with Flutter and Dart. It focuses on a simple mobile riding experience with motorcycle selection, movement controls, and obstacle avoidance.
 
-# Moto Travel is a motorcycle riding game built with Flutter. Players can ride a motorcycle, control its movement, avoid obstacles, and enjoy a simple riding experience.
+> **Project status:** Learning and portfolio prototype. This repository describes a Flutter mobile game, not the separate Unity 3D concept.
 
-# 
+## Gameplay Features
 
-# \## Features
+- Welcome screen and game entry flow.
+- Motorcycle selection screen.
+- Riding gameplay screen.
+- Left and right movement controls.
+- Acceleration and braking.
+- Pause and restart options.
+- Obstacle-avoidance gameplay.
 
-# 
+## Technology Stack
 
-# \- Welcome screen
+| Area | Technology |
+|---|---|
+| Application | Flutter |
+| Language | Dart |
+| Target | Android and other Flutter-supported platforms |
 
-# \- Motorcycle selection
+## Getting Started
 
-# \- Motorcycle riding gameplay
+### Requirements
 
-# \- Left and right movement controls
+- Flutter SDK
+- Dart SDK (included with Flutter)
+- Android Studio or Visual Studio Code
+- Android emulator or physical Android device
 
-# \- Acceleration and braking
+### Clone and run
 
-# \- Pause and restart options
+```bash
+git clone https://github.com/rahat-codes/moto-travel.git
+cd moto-travel
+flutter pub get
+flutter analyze
+flutter run
+```
 
-# \- Obstacle avoidance
+## Build an Android APK
 
-# 
+Create a release APK with:
 
-# \## Built With
+```bash
+flutter build apk --release
+```
 
-# 
+The generated APK is available at:
 
-# \- Flutter
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
 
-# \- Dart
+Install it on a compatible Android device for testing. This project is not published through Google Play.
 
-# 
+## Engineering Roadmap
 
-# \## Getting Started
+- [ ] Add gameplay screenshots and a short video demonstration.
+- [ ] Document game-state management and control behavior.
+- [ ] Add tests for navigation and core gameplay state.
+- [ ] Improve responsive layout across phone aspect ratios.
+- [ ] Add performance checks for sustained gameplay.
+- [ ] Document asset sources and licenses.
 
-# 
+## Author
 
-# \### 1. Clone the repository
+**Rahat** · [GitHub](https://github.com/rahat-codes)
 
-# 
+## License
 
-# ```bash
-
-# git clone https://github.com/YOUR\_USERNAME/moto\_travel.git
-
-# ```
-
-# 
-
-# \### 2. Open the project
-
-# 
-
-# ```bash
-
-# cd moto\_travel
-
-# ```
-
-# 
-
-# \### 3. Install dependencies
-
-# 
-
-# ```bash
-
-# flutter pub get
-
-# ```
-
-# 
-
-# \### 4. Run the game
-
-# 
-
-# ```bash
-
-# flutter run
-
-# ```
-
-# 
-
-# \## Build APK
-
-# 
-
-# To build an Android APK, run:
-
-# 
-
-# ```bash
-
-# flutter build apk --release
-
-# ```
-
-# 
-
-# The APK will be generated at:
-
-# 
-
-# `build/app/outputs/flutter-apk/app-release.apk`
-
-# 
-
-# \## Requirements
-
-# 
-
-# \- Flutter SDK
-
-# \- Dart SDK
-
-# \- Android Studio or Visual Studio Code
-
-# \- Android device or emulator
-
-# 
-
-# \## Developer
-
-# 
-
-# Developed as a Flutter mobile game project.
-
-# 
-
-# \## License
-
-# 
-
-# This project is for learning and development purposes.
-
+This project is provided for learning and development purposes. Check the repository for any included third-party asset licenses before redistribution.
